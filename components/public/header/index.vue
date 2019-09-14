@@ -5,7 +5,7 @@
 </template>
 <script>
 export default {
-  data() {
+  data () {
     return {
       list: ''
     }
@@ -13,5 +13,5 @@ export default {
 }
 </script>
 <style lang="scss">
-  
+
 </style>
