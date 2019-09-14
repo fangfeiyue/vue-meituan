@@ -1,14 +1,13 @@
 <template>
   <div>
-    header
+    <geo />
   </div>
 </template>
 <script>
+import Geo from './geo'
 export default {
-  data () {
-    return {
-      list: ''
-    }
+  components: {
+    Geo
   }
 }
 </script>
