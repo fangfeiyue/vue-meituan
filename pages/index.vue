@@ -3,7 +3,7 @@
     <div>
       <logo />
       <h1 class="title">
-        meituan
+        meituan1
       </h1>
       <h2 class="subtitle">
         My top-notch Nuxt.js project
