@@ -2,25 +2,33 @@
   <div class="page-index">
     <el-row>
       <el-col :span="5">
-        <my-menu />
+        <emenu />
       </el-col>
       <el-col :span="19">
-        2
+        <life />
       </el-col>
     </el-row>
-    <el-row :span="24">
-      3
+    <el-row>
+      <el-col :span="24">
+        <!-- <artistic /> -->
+        12
+      </el-col>
     </el-row>
   </div>
 </template>
 <script>
-import MyMenu from '@/components/index/menu'
+import Emenu from '@/components/index/menu.vue'
+import Life from '@/components/index/life.vue'
+// import Artistic from '@/components/index/artistic.vue'
 export default {
   components: {
-    MyMenu
+    Emenu,
+    Life
+    // Artistic
   }
 }
 </script>
+
 <style lang="scss">
-  @import '@/assets/css/index/index.scss'
+  @import "@/assets/css/index/index.scss";
 </style>
