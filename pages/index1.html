@@ -1,0 +1,34 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    #video {
+      width: 100%;
+      height: 200px;
+    }
+  </style>
+</head>
+<body>
+  <button style="display: none" id="btn">回到首页</button>
+<script>
+  window.addEventListener('load', function(){
+    var btn = document.getElementById('btn')
+    try {
+      system.onmessage = function(data){
+        // data = JSON.parse(data)
+        // if (data.type !== 'fromqa') {
+        //   btn.style.display = 'block'
+        // }
+      }
+    }catch(err) {
+      btn.style.display = 'block'
+    }
+  })
+</script>
+</body>
+</html>
